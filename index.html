@@ -62,6 +62,48 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-lqq-4" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2019/09/06/lqq-4/" class="article-date">
+  <time datetime="2019-09-06T09:15:04.118Z" itemprop="datePublished">2019-09-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/09/06/lqq-4/">Tensor转图片可视化</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><strong>transforms</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">from torchvision import transforms </span><br><span class="line">import torch as t</span><br><span class="line"></span><br><span class="line">to_pil = transforms.ToPILImage()</span><br><span class="line">print(to_pil(t.zeros(3, 64, 64)))</span><br><span class="line">a = to_pil(t.zeros(3, 64, 64))</span><br><span class="line">a.show()</span><br></pre></td></tr></table></figure>
+
+<p><strong>torchvision</strong></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">from torchvision.utils import save_image</span><br><span class="line">from PIL import Image</span><br><span class="line"></span><br><span class="line">save_image(t.zeros(3, 64, 64), &apos;c.png&apos;)</span><br><span class="line">Image.open(&apos;c.png&apos;)</span><br></pre></td></tr></table></figure>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2019/09/06/lqq-4/" data-id="ck07wm87y0005lg7p6nxpuajd" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/菜鸟集锦/">菜鸟集锦</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-lqq-3" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2019/09/05/lqq-3/" class="article-date">
@@ -92,7 +134,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/09/05/lqq-3/" data-id="ck06q4y4j0000xw7pmbxb5p46" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/09/05/lqq-3/" data-id="ck07wm87v0004lg7p6yhonyoz" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/菜鸟集锦/">菜鸟集锦</a></li></ul>
@@ -137,7 +179,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/30/lqq-2/" data-id="cjzy4snsm0002is7pb3f9xov2" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/08/30/lqq-2/" data-id="ck07wm87q0002lg7p5r808c39" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/菜鸟集锦/">菜鸟集锦</a></li></ul>
@@ -176,7 +218,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/30/lqq-1/" data-id="cjzy4snsk0001is7pyooiniit" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/08/30/lqq-1/" data-id="ck07wm87o0001lg7p9itz5u9e" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/菜鸟集锦/">菜鸟集锦</a></li></ul>
@@ -215,7 +257,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/29/你好-Hexo/" data-id="cjzy4snta0007is7pof4nxgte" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/08/29/你好-Hexo/" data-id="ck07wm8800006lg7pp1z7467z" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/初来乍到/">初来乍到</a></li></ul>
@@ -254,7 +296,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/29/我爱你/" data-id="cjzy4snte0008is7pyqtll7i8" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/08/29/我爱你/" data-id="ck07wm8850009lg7ppzyc36ba" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/初来乍到/">初来乍到</a></li></ul>
@@ -305,7 +347,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2019/08/29/hello-world/" data-id="cjzy4snsb0000is7pchkllqvk" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2019/08/29/hello-world/" data-id="ck07wm87h0000lg7p1melir0v" class="article-share-link">Share</a>
       
       
     </footer>
@@ -360,6 +402,10 @@
       <ul>
         
           <li>
+            <a href="/2019/09/06/lqq-4/">Tensor转图片可视化</a>
+          </li>
+        
+          <li>
             <a href="/2019/09/05/lqq-3/">linux磁盘、运行内存查看</a>
           </li>
         
@@ -373,10 +419,6 @@
         
           <li>
             <a href="/2019/08/29/你好-Hexo/">你好,Hexo</a>
-          </li>
-        
-          <li>
-            <a href="/2019/08/29/我爱你/">李白&amp;杜甫</a>
           </li>
         
       </ul>
